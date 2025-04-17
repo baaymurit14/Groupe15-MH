@@ -1,0 +1,25 @@
+# Fichiers de configuration VS
+.vs/
+*.user
+*.suo
+
+# Build et cache Flutter
+build/
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+.idea/
+
+# Fichiers d’OS
+.DS_Store
+Thumbs.db
+
+# Fichiers lock ou temporaires
+*.lock
+*.tmp
+
+# Node modules si tu as du JS
+node_modules/

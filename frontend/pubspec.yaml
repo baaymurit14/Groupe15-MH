@@ -1,0 +1,26 @@
+name: projet_G15
+description: Application mobile pour g�rer les voyages interurbains
+version: 0.0.1
+homepage: https://github.com/baaymurit14/Groupe15-MH.git
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5 # Pour la gestion d'�tat
+  http: ^1.3.0    # Pour les requ�tes HTTP (ex. communication avec un serveur)
+  google_fonts: ^6.2.1 # Pour utiliser des polices personnalis�es
+  flutter_localizations:
+    sdk: flutter # Pour la gestion des langues (localisation)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0 # Pour les bonnes pratiques de code
+
+flutter:
+  assets:
+    - assets/images/ # Ajoutez vos images ici
